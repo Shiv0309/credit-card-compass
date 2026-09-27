@@ -80,7 +80,7 @@ Full CFPB database: https://www.consumerfinance.gov/data-research/consumer-compl
 
 ## Repository Contents
 
-- `index.html`, the interactive tool ([live demo](YOUR_GITHUB_PAGES_LINK_HERE))
+- `index.html`, the interactive tool ([live demo]((https://shiv0309.github.io/credit-card-compass/)))
 - `analysis.ipynb`, data cleaning, aggregation, and the recommendation logic
 - `complaints_86k.zip`, the underlying dataset (zipped to fit GitHub's upload limit)
 
