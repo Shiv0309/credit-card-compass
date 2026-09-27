@@ -128,3 +128,13 @@ open question worth further study rather than a settled conclusion.
   "Servicemember" tags could be used to examine whether certain groups
   experience systematically worse outcomes, extending the tool from a
   decision aid into an accountability resource.
+
+## AI assistance
+
+As beginner coders working within a 24-hour datathon time constraint,
+we used AI tools (Claude and ChatGPT) to help write and debug code for
+the website, the data analysis notebook, and the Shiny dashboard. The
+underlying ideas, data analysis approach, category design, quiz
+structure, and overall project direction are our own; AI assistance was
+used primarily to translate those ideas into working code more quickly
+than we could have as a team new to some of these tools.
