@@ -82,6 +82,9 @@
   .detail-def{font-size:0.8rem; opacity:0.65; margin-top:0.1rem; line-height:1.35;}
   .legend{font-size:0.8rem; opacity:0.65; margin-bottom:1rem; line-height:1.5;}
   .note{font-size:0.8rem; opacity:0.6; margin-top:2rem; line-height:1.5;}
+    .dash-link{display:block; text-align:center; font-size:0.8rem; color:var(--teal);
+             text-decoration:none; margin-top:1.5rem; opacity:0.85;}
+  .dash-link:hover{opacity:1; text-decoration:underline;}
   .legend-row{display:flex; flex-wrap:wrap; gap:0.5rem; margin-bottom:1.4rem;}
   .legend-item{display:flex; align-items:center; gap:0.4rem; font-size:0.78rem; background:var(--white);
                border:1px solid var(--line); border-radius:20px; padding:0.35rem 0.75rem; cursor:pointer;
@@ -254,7 +257,8 @@ function introHTML(){
     <div class="kicker">The Credit Card Compass</div>
     <h1>Which of these four banks actually resolves complaints the way you'd want?</h1>
     <p class="sub">Bank of America, Capital One, Chase, and Wells Fargo don't resolve credit-card complaints the same way. The difference depends on what kind of issue you run into. Answer six quick questions and we'll show you a ranking based on real resolution outcomes for the things you care about most.</p>
-    <button class="primary" id="start">Start</button>
+     <button class="primary" id="start">Start</button>
+    <a class="dash-link" href="https://rrrealww.shinyapps.io/credit-card-compass/" target="_blank">Explore the underlying data →</a>
   `;
 }
 
@@ -342,6 +346,7 @@ function resultsHTML(){
     <p class="note">"Relief rate" reflects how often a company's response to a closed complaint included monetary or non-monetary relief, based on CFPB Consumer Complaint Database records for these four banks. It measures resolution responsiveness, not whether the consumer was in the right. A company can fairly deny relief and still close a complaint "with explanation."</p>
     <button class="link" id="backToConfirm">&larr; adjust my priorities</button>
     <button class="link" id="startOver">start over</button>
+    <a class="dash-link" href="https://rrrealww.shinyapps.io/credit-card-compass/" target="_blank">Explore the full dataset and analysis →</a>
   `;
 }
 
