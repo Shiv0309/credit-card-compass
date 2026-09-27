@@ -78,11 +78,27 @@ categories, before computing the relief-rate statistics the tool runs on.
 
 Full CFPB database: https://www.consumerfinance.gov/data-research/consumer-complaints/
 
+## Transparency dashboard
+
+Transparency is central to this project, from the tool itself
+showing users exactly which priorities drive their ranking, to
+making the full analysis and dataset public in this repository. As
+an extension of that commitment, our team built an interactive R
+Shiny dashboard that lets anyone dig into the data and analysis
+behind the recommendation system directly: relief rates by bank and
+category, complaint volumes, risk comparisons, and a live version of
+the same weighted-ranking logic used in the website.
+
+Try it here: https://rrrealww.shinyapps.io/credit-card-compass/
+
+Source code is included in this repository as `dashboard.R`.
+
 ## Repository Contents
 
-- `index.html`, the interactive tool ([live demo]((https://shiv0309.github.io/credit-card-compass/)))
+- - `index.html`, the interactive tool ([live demo]((https://shiv0309.github.io/credit-card-compass/)))
 - `analysis.ipynb`, data cleaning, aggregation, and the recommendation logic
 - `complaints_86k.zip`, the underlying dataset (zipped to fit GitHub's upload limit)
+- - `dashboard.R`, source code for the companion Shiny dashboard ([live demo](https://rrrealww.shinyapps.io/credit-card-compass/)) 
 
 ## Limitations
 
